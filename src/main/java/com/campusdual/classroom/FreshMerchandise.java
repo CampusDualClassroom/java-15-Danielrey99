@@ -22,8 +22,8 @@ public class FreshMerchandise extends Merchandise {
         String date = getFormattedDate(this.expirationDate);
 
         StringBuilder sb = new StringBuilder();
-        sb.append("Localizacion: "+ getLocation()+ ", ");
-        sb.append("Expiracion: "+date);
+        sb.append("Localizacion: ").append(getLocation()).append(", ");
+        sb.append("Expiracion: ").append(date);
 
         return sb.toString();
     }
